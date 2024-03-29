@@ -17,7 +17,9 @@ const App = () => {
     onSuccess:()=>{ // Clearing / Invalidating old data in the post aka ['posts']
       queryClient.invalidateQueries(['posts'])
     }
-  })
+  });
+
+  console.log({postMutation})
 
   const addNewPosts = ()=>{
     postMutation.mutate(inpRef.current.value)
@@ -40,7 +42,7 @@ const App = () => {
       <div style={{display:'flex', gap:"0.5rem", alignItems:'center'}}>
       <label>Add New Post </label>
       <input ref={inpRef} />
-      <button onClick={addNewPosts}> Add</button>
+      <button onClick={addNewPosts} disabled={postMutation.isPending}> Add</button>
       </div>
     </section>
   )
