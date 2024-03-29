@@ -1,7 +1,7 @@
 
 # Tanstack Query V5
 
-These are Basic Usage of React Query
+These are Advace Usage of React Query
 
 
 ## How to use
