@@ -19,8 +19,6 @@ const App = () => {
     }
   });
 
-  console.log({postMutation})
-
   const addNewPosts = ()=>{
     postMutation.mutate(inpRef.current.value)
     inpRef.current.value=""
