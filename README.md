@@ -8,9 +8,8 @@ These are Advace Usage of React Query
 
 - QueryClientProvider
 - useQueryClient
-- useQuery basic use
-- useMutation basic use
-- and revalidation features
+- useQuery 
+- useMutation 
 - ReactQueryDevtools
 
 
