@@ -16,7 +16,7 @@ These are Basic Usage of React Query
 
 ## Installation
 
-Install my-project with npm / yarn
+Install tanstack-react-query with npm / yarn
 
 ```bash
   npm install 
